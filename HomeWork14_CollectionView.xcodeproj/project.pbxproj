@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36A6284128E9EC8100A6E4A0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6284028E9EC8100A6E4A0 /* TabBarViewController.swift */; };
 		36B1484A28CD083E003BDC45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1484928CD083E003BDC45 /* AppDelegate.swift */; };
 		36B1484C28CD083E003BDC45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1484B28CD083E003BDC45 /* SceneDelegate.swift */; };
 		36B1484E28CD083E003BDC45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1484D28CD083E003BDC45 /* ViewController.swift */; };
 		36B1485328CD0841003BDC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B1485228CD0841003BDC45 /* Assets.xcassets */; };
+		36B1486328CDB9D5003BDC45 /* MyAlbumsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1486228CDB9D5003BDC45 /* MyAlbumsCell.swift */; };
+		36B1486528CDDBD3003BDC45 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1486428CDDBD3003BDC45 /* Model.swift */; };
+		36B1486828CDDDFE003BDC45 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 36B1486728CDDDFE003BDC45 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36A6284028E9EC8100A6E4A0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		36B1484628CD083E003BDC45 /* HomeWork14_CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork14_CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B1484928CD083E003BDC45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36B1484B28CD083E003BDC45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		36B1484D28CD083E003BDC45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36B1485228CD0841003BDC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36B1485728CD0841003BDC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36B1486228CDB9D5003BDC45 /* MyAlbumsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlbumsCell.swift; sourceTree = "<group>"; };
+		36B1486428CDDBD3003BDC45 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B1486828CDDDFE003BDC45 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +60,11 @@
 		36B1484828CD083E003BDC45 /* HomeWork14_CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				36B1486128CDB9A0003BDC45 /* Cells */,
 				36B1486028CD0943003BDC45 /* App */,
 				36B1485F28CD08F2003BDC45 /* View */,
 				36B1485728CD0841003BDC45 /* Info.plist */,
+				36B1486428CDDBD3003BDC45 /* Model.swift */,
 			);
 			path = HomeWork14_CollectionView;
 			sourceTree = "<group>";
@@ -63,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				36B1484D28CD083E003BDC45 /* ViewController.swift */,
+				36A6284028E9EC8100A6E4A0 /* TabBarViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -75,6 +86,14 @@
 				36B1484928CD083E003BDC45 /* AppDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		36B1486128CDB9A0003BDC45 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				36B1486228CDB9D5003BDC45 /* MyAlbumsCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +112,9 @@
 			dependencies = (
 			);
 			name = HomeWork14_CollectionView;
+			packageProductDependencies = (
+				36B1486728CDDDFE003BDC45 /* SnapKit */,
+			);
 			productName = HomeWork14_CollectionView;
 			productReference = 36B1484628CD083E003BDC45 /* HomeWork14_CollectionView.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +143,9 @@
 				Base,
 			);
 			mainGroup = 36B1483D28CD083E003BDC45;
+			packageReferences = (
+				36B1486628CDDDFE003BDC45 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 36B1484728CD083E003BDC45 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B1486528CDDBD3003BDC45 /* Model.swift in Sources */,
 				36B1484E28CD083E003BDC45 /* ViewController.swift in Sources */,
 				36B1484A28CD083E003BDC45 /* AppDelegate.swift in Sources */,
 				36B1484C28CD083E003BDC45 /* SceneDelegate.swift in Sources */,
+				36A6284128E9EC8100A6E4A0 /* TabBarViewController.swift in Sources */,
+				36B1486328CDB9D5003BDC45 /* MyAlbumsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +373,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36B1486628CDDDFE003BDC45 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36B1486728CDDDFE003BDC45 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36B1486628CDDDFE003BDC45 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 36B1483E28CD083E003BDC45 /* Project object */;
 }
