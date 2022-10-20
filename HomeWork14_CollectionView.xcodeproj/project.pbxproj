@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		36576AE428F808B600CFF5D2 /* PhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576AE328F808B600CFF5D2 /* PhotoAlbum.swift */; };
-		36576AE628F82F8300CFF5D2 /* SharedAlbumsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576AE528F82F8300CFF5D2 /* SharedAlbumsCell.swift */; };
 		36A6284328EA016100A6E4A0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6284228EA016100A6E4A0 /* TabBarController.swift */; };
 		36A6284528EA01FE00A6E4A0 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6284428EA01FE00A6E4A0 /* MediaViewController.swift */; };
 		36A6284728EA025C00A6E4A0 /* ForYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6284628EA025C00A6E4A0 /* ForYouViewController.swift */; };
 		36A6284928EA028300A6E4A0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6284828EA028300A6E4A0 /* SearchViewController.swift */; };
 		36A6284C28EA092200A6E4A0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 36A6284B28EA092200A6E4A0 /* SnapKit */; };
 		36A6284F28EA09F200A6E4A0 /* MyAlbumsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6284E28EA09F200A6E4A0 /* MyAlbumsCell.swift */; };
+		36B06E9229005F92008FFD35 /* TypeOfMediaAndOthers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B06E9129005F92008FFD35 /* TypeOfMediaAndOthers.swift */; };
+		36B06E9429006811008FFD35 /* HeadersOfAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B06E9329006811008FFD35 /* HeadersOfAlbum.swift */; };
+		36B06E9629012D24008FFD35 /* HeadersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B06E9529012D23008FFD35 /* HeadersModel.swift */; };
 		36B1484A28CD083E003BDC45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1484928CD083E003BDC45 /* AppDelegate.swift */; };
 		36B1484C28CD083E003BDC45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1484B28CD083E003BDC45 /* SceneDelegate.swift */; };
 		36B1484E28CD083E003BDC45 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1484D28CD083E003BDC45 /* AlbumsViewController.swift */; };
@@ -23,12 +25,14 @@
 
 /* Begin PBXFileReference section */
 		36576AE328F808B600CFF5D2 /* PhotoAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbum.swift; sourceTree = "<group>"; };
-		36576AE528F82F8300CFF5D2 /* SharedAlbumsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAlbumsCell.swift; sourceTree = "<group>"; };
 		36A6284228EA016100A6E4A0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		36A6284428EA01FE00A6E4A0 /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
 		36A6284628EA025C00A6E4A0 /* ForYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouViewController.swift; sourceTree = "<group>"; };
 		36A6284828EA028300A6E4A0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		36A6284E28EA09F200A6E4A0 /* MyAlbumsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlbumsCell.swift; sourceTree = "<group>"; };
+		36B06E9129005F92008FFD35 /* TypeOfMediaAndOthers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfMediaAndOthers.swift; sourceTree = "<group>"; };
+		36B06E9329006811008FFD35 /* HeadersOfAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadersOfAlbum.swift; sourceTree = "<group>"; };
+		36B06E9529012D23008FFD35 /* HeadersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadersModel.swift; sourceTree = "<group>"; };
 		36B1484628CD083E003BDC45 /* HomeWork14_CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork14_CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B1484928CD083E003BDC45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36B1484B28CD083E003BDC45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				36576AE328F808B600CFF5D2 /* PhotoAlbum.swift */,
+				36B06E9529012D23008FFD35 /* HeadersModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -61,7 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				36A6284E28EA09F200A6E4A0 /* MyAlbumsCell.swift */,
-				36576AE528F82F8300CFF5D2 /* SharedAlbumsCell.swift */,
+				36B06E9129005F92008FFD35 /* TypeOfMediaAndOthers.swift */,
+				36B06E9329006811008FFD35 /* HeadersOfAlbum.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -210,12 +216,14 @@
 				36A6284328EA016100A6E4A0 /* TabBarController.swift in Sources */,
 				36A6284928EA028300A6E4A0 /* SearchViewController.swift in Sources */,
 				36A6284528EA01FE00A6E4A0 /* MediaViewController.swift in Sources */,
+				36B06E9229005F92008FFD35 /* TypeOfMediaAndOthers.swift in Sources */,
+				36B06E9429006811008FFD35 /* HeadersOfAlbum.swift in Sources */,
 				36A6284F28EA09F200A6E4A0 /* MyAlbumsCell.swift in Sources */,
+				36B06E9629012D24008FFD35 /* HeadersModel.swift in Sources */,
 				36A6284728EA025C00A6E4A0 /* ForYouViewController.swift in Sources */,
 				36576AE428F808B600CFF5D2 /* PhotoAlbum.swift in Sources */,
 				36B1484E28CD083E003BDC45 /* AlbumsViewController.swift in Sources */,
 				36B1484A28CD083E003BDC45 /* AppDelegate.swift in Sources */,
-				36576AE628F82F8300CFF5D2 /* SharedAlbumsCell.swift in Sources */,
 				36B1484C28CD083E003BDC45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

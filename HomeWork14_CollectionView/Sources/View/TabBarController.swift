@@ -11,12 +11,7 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupTabBarController()
         setupTabBarViewControllers()
-    }
-
-    private func setupTabBarController() {
-        
     }
 
     private func setupTabBarViewControllers() {
