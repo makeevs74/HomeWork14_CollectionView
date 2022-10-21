@@ -15,7 +15,6 @@ class AlbumsViewController: UIViewController {
     private lazy var collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: createLayout())
 
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
         collectionView.register(MyAlbumsCell.self, forCellWithReuseIdentifier: MyAlbumsCell.identifier)
         collectionView.register(TypeOfMediaAndOthers.self, forCellWithReuseIdentifier: TypeOfMediaAndOthers.identifier)
         collectionView.register(HeadersOfAlbum.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: HeadersOfAlbum.identifier)
